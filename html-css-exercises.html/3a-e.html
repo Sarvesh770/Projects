@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 2-Basics of css</title>
+    <style>
+      .uber-button {
+        background-color: black;
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+      }
+      .uber-button:hover {
+        opacity: 0.7;
+      }
+      .amazon-button {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 18px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s;
+      }
+      .amazon-button:hover{
+        background-color: rgb(245, 208, 19);
+      }
+
+      .github-button {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 85px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 8px;
+        font-weight: bold;
+        transition: box-shadow 0.15s;
+      }
+      .github-button:hover {
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+      }
+
+      .bootstrap-button {
+        background-color: rgb(107, 64, 180);
+        color: white;
+        border: none;
+        height: 42px;
+        width: 100px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        font-weight: bold;
+        transition: background-color 0.15s;
+      }
+      .bootstrap-button:hover {
+        background-color: rgb(99, 53, 179);
+      }
+      .bootstrap-download-button {
+        background-color: white;
+        color: gray;
+        height: 42px;
+        width: 100px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        font-weight: bold;
+        transition: background-color 0.15s,
+          color 0.15s;
+      }
+      .bootstrap-download-button:hover {
+        background-color: gray;
+        color: white;
+      }
+
+      .linkedin-button {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 250px;
+        border-radius: 18px;
+        cursor: pointer;
+        margin-right: 8px;
+        font-weight: bold;
+        transition: background-color 0.15s;
+      }
+      .linkedin-button:hover {
+        background-color: rgb(0, 90, 180);
+      }
+      .linkedin-save-button {
+        background-color: white;
+        border-color: rgb(10, 102, 194);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(10, 102, 194);
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+        /* space(around an element = margin*/
+        margin-right: 8px;
+        cursor: pointer; 
+        font-weight: bold;
+        transition: background-color 0.15s;
+      }
+      .linkedin-save-button:hover {
+        border-width: 2px;
+        background-color: rgb(234, 234, 234);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- this is a comment -->
+    <p>Uber-Amazon-Github button</p>
+    <button class="uber-button">
+      Request now
+    </button>
+
+    <button class="amazon-button">
+      Add to Cart
+    </button>
+
+    <button class="github-button">
+      Sign up
+    </button>
+
+    <p>Bootstrap-LinkedIn buttons </p>
+    <button class="bootstrap-button">
+      Get started
+    </button>
+
+    <button class="bootstrap-download-button">
+      Download
+    </button>
+
+    <button class="linkedin-button">
+      Apply on company website
+    </button>
+
+    <button class="linkedin-save-button">
+      Save
+    </button>
+  </body>
+</html>
